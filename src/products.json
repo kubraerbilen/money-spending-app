@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Sakız",
+        "price": 0.5,
+        "image":"https://cdn.dsmcdn.com/ty25/product/media/images/20201125/15/32438978/21973175/1/1_org_zoom.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Kola",
+        "price": 6,
+        "image":"https://www.mismarsanalmarket.com/UserFiles/Fotograflar/org/6400-coca-cola-200-ml-cam-54491250-jpg-54491250.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Ayakkabı",
+        "price": 400,
+        "image":"https://akn-ss.b-cdn.net/products/2022/01/28/340690/5f2e615e-3ed0-47eb-a7b8-7022d59dc0d3_size1400x1400_quality100.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Araba",
+        "price": 40000,
+        "image":"https://i4.hurimg.com/i/hurriyet/75/750x422/5f71aaccc03c0e2e28cc237d.jpg"
+    }
+]

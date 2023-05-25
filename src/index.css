@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 0;
+  outline: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(182deg, #4500ff8a, transparent);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.header span {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 24%;
+}
+
+.product img {
+  width: 100%;
+  height: 300px;
+}
+
+.product h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.product .price {
+  font-size: 20px;
+  color: teal;
+}
+
+.actions button {
+  height: 40px;
+  padding: 0 15px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+.actions .amount {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #555;
+}
+
+.actions .buy-btn {
+  background: rgb(121, 202, 121);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+}
+
+.actions .sell-btn {
+  background: rgb(130, 199, 224);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px 0 0 4px;
+  color: #fff;
+}
+
+.basket-container {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.basket-container h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.basket-container .total {
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: teal;
+  border-top: 1px solid #ddd;
+}
+
+.basket-item {
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.basket-item span {
+  color: #999;
+}
+
+.basket-reset{
+  background: rgb(231, 106, 106);
+  height: 40px;
+  cursor: pointer;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fff;
+}
